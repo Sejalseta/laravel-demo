@@ -1,0 +1,501 @@
+<%@ Master Language="C#" MasterPageFile="/masterpages/template_sinhgadEngineeringInstitutes.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="placeHolder_sei_topMenu" runat="server">
+
+
+<div class="row">
+                   <!--homelink-->
+                  <div class="span1">
+                       <ul class="nav nav-pills ul-topinfo-links">             
+                            <li><a href="#" class="home-link">Home</a></li>
+                        </ul>    
+                  </div>
+                   <!--/homelink-->
+                   
+                   <!--restLinks-->
+                   <div class="span11">
+                   
+      
+      <ul class="nav nav-pills pull-right ul-topinfo-links" >
+       
+        <li><a href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_aboutus.aspx" >About Us</a></li>
+        
+        <li><a href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_principal's-desk.aspx" >Principal's Desk</a></li>
+        
+        <li><a href="http://www.sinhgad.edu/sinhgad-engineering-institutes/SEI-Admission.html" >Admissions</a></li>              
+        
+         <!--drop menu-->             
+        <li class="dropdown"><a href="#" id="dept-Dropper" class="dropdown-toggle"  role="button" data-toggle="dropdown" >Departments <b class="caret"></b></a>
+        <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="dept-Dropper">                  
+            <li role="presentation" class="divider"></li>
+            <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-civil.html">Civil</a>
+                  <ul class="dropdown-menu">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept.aspx">About Us</a></li> 
+
+                      
+
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_vision-mission.aspx">Vision Mission &amp; PEOs</a></li> 
+
+                        <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_pos,psos,cos.aspx">POs, PSOs, COs</a></li> -->
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://drive.google.com/file/d/1fnfm3bQd_tx1axVlhqq6Q7KCEazkU2kt/view?usp=sharing">POs, PSOs, COs</a></li>  
+                      
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_academics.aspx">Academic Schedule</a></li>        
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_faculty_details.aspx">
+                       Faculty</a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_conf_sems.aspx">
+                       Faculty Development </a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_ind_interactions.aspx">
+                       Industry Interaction</a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_lab_details.aspx">
+                       Facilities</a></li>            
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_research.aspx">Research</a></li>          
+                                 
+                               
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_dresult.aspx">Results</a></li> 
+                      
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_studentact.aspx">Student activity</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_student_pub_achievements.aspx">Achievements</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_civil_dept/sits_nt_civil_testimonials.aspx">Testimonials</a></li>
+                      
+                      <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="">Conferences &amp; Seminars</a></li>   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="">Achievements</a></li> -->
+                   </ul>  
+             </li>        
+                  
+            <li role="presentation" class="divider"></li>
+            <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-comp.html">Computer</a>
+                  <ul class="dropdown-menu">
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept.aspx">About Us</a></li> 
+
+                       
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_vision_mission.aspx">Vision Mission &amp; PEOs</a></li>
+
+                       <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_pos,psos,cos.aspx">POs, PSOs, COs</a></li> -->
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="  https://drive.google.com/file/d/1_syVeoDQN4EJzPE9WjOxBpHfvR-yGJph/view?usp=sharing">POs, PSOs, COs</a></li>  
+
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_academics.aspx"> Academic Schedule </a></li>
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_faculty_details.aspx">
+                        Faculty</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_conf_sems.aspx"> 
+           Faculty Development</a></li> 
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_ind_interactions.aspx">
+                       Industry Interaction</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_lab_details.aspx">
+                       Facilities</a></li> 
+           			<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_research.aspx">
+                        Research</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                        "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_d-results.aspx"> Results </a></li>
+               	<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                        "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_studentact.aspx"> Student activities </a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                        "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_student_pub_achievements.aspx"> Achievements  </a></li>
+                                 
+                    
+                          
+                                         
+            
+              
+                         <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                        "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_comp_dept/sits_nt_comp_testimonials.aspx"> Testimonials  </a></li>    
+                            
+                   </ul>  
+             </li>        
+
+            <li role="presentation" class="divider"></li>
+           <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-it.html">Information Technology</a>
+                  <ul class="dropdown-menu">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept.aspx">About Us</a></li> 
+
+                      
+
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_vision_mission.aspx">Vision Mission &amp; PEOs</a></li>
+
+                        <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/SITS_NT_IT_POs,PSOs,COs.aspx">POs, PSOs, COs</a></li> -->
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=" https://drive.google.com/file/d/1hDJeEPzOFwpOaS8IL2QFh-i9y2KE-1KL/view?usp=sharing">POs, PSOs, COs</a></li>  
+                        
+
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_academics.aspx">
+                       Academic Schedule</a></li>        
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_faculty_details.aspx">
+                       Faculty</a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_conf_sems.aspx">
+                       Faculty Development </a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_ind_interactions.aspx">
+                       Industry Interaction</a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_lab_details.aspx">
+                       Facilities</a></li> 
+                         <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_research.aspx">Research</a></li>         
+                       <!--<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "">Academic Schedule</a></li>           -->
+                                 
+                       
+                                   
+                       <!--<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "">Parent section</a></li> -->
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_dresults.aspx">Department Results</a></li>
+                      
+                      
+                      
+                      
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_studentact.aspx">Students activity</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_student_pub_achievements.aspx">Students Achievements</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_it_dept/sits_nt_it_testimonials.aspx">Testimonials</a></li>
+                      
+                      
+                      
+                      
+                      <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="">Conferences &amp; Seminars</a></li>   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="">Achievements</a></li> -->
+                   </ul>  
+             </li>   
+
+            <li role="presentation" class="divider"></li>
+             <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-entc.html">Electronics &amp; Telecommunication</a>
+                  <ul class="dropdown-menu">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                  "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept.aspx">About Us</a></li> 
+
+                  
+
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_vision_mission.aspx">Vision Mission &amp; PEOs</a></li>
+
+
+                    <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_pos,psos,cos.aspx">POs, PSOs, COs</a></li> -->
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="  https://drive.google.com/file/d/1XPR9dEaNomALDUWNOhzU1zwrnvQj3Fbp/view?usp=sharing">POs, PSOs, COs</a></li>  
+
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=  "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_academics.aspx">Academic Schedule</a></li>                                                       
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                  "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_faculty_details.aspx">
+                  Faculty</a></li>  
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_conf_sems.aspx">Faculty Development</a></li> 
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_ind_interactions.aspx">Industry Interactions</a></li> 
+
+                 <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_lab_details.aspx"> Facilities</a></li> 
+                                         <li role="presentation"><a role="menuitem" tabindex="-1" href=   "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_research.aspx">Research</a></li>                                                         
+     
+                       
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_d-results.aspx">Results</a></li>
+                                                                           <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_d-results.aspx">Department Results</a></li>
+
+                                                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_student_pub_achievements.aspx">Students Achievements</a></li>
+
+
+
+                 
+                  <!--     <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "#">Academic Schedule</a></li>         
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "#">
+                       Industry Interaction</a></li>          
+                   <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "#">
+                       Conferences &amp; Seminars</a></li>-->         
+                       <!--<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "">Parent section</a></li> -->
+                      <!--<li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "">Research</a></li>-->
+                      
+                       
+                     
+                                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_entc_dept/sits_nt_entc_testimonials.aspx">Testimonials</a></li>
+
+                       
+                                        <!-- <li role="presentation" class="divider"></li>
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="">Achievements</a></li> -->
+                   </ul>  
+             </li>     
+             
+            <li role="presentation" class="divider"></li>
+           <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-mech.html">Mechanical</a>
+                  <ul class="dropdown-menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept.aspx">About Us</a></li> 
+
+                      
+
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_vision_mission.aspx">Vision Mission &amp; PEOs</a></li>
+
+                        <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_pos,psos,cos.aspx">POs, PSOs, COs</a></li> -->
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="  https://drive.google.com/file/d/1Jjyl1_OVzdU_HcW7LEqh3oWpZtO3EcJW/view?usp=sharing">POs, PSOs, COs</a></li>  
+
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_academics.aspx">Academic Schedule</a></li> 
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_conf_sems.aspx">
+                       Faculty Development</a></li> 
+                       
+                              
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_faculty_details.aspx">
+                       Faculty</a></li>   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_ind_interactions.aspx"> 
+           Industry Interaction</a></li>
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_lab_details.aspx">
+                       Facilities</a></li>            
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_research.aspx">Research</a></li>            
+                                 
+                                   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_dept_results.aspx">Results</a></li> 
+                      
+                      
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_studentact.aspx">Students activity</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/student_pub_achievements.aspx">Students Achievements</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                      "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mech_dept/sits_nt_mech_testimonials.aspx">Testimonials</a></li>
+                      
+                      
+                      
+                      
+                      <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="">Conferences &amp; Seminars</a></li>   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="">Achievements</a></li> -->
+                   </ul>  
+             </li>        
+             
+   <!--<li role="presentation" class="divider"></li>
+           <li class="presentation "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/SinhgadManagementInstitutes/SITS-MBA/">M.B.A</a> </li>-->
+
+
+
+             <li role="presentation" class="divider"></li>
+           <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="http://www.sinhgad.edu/sinhgad-engineering-institutes/Departments/SITS/SEI-fe.html">Engineering Science</a>
+                  <ul class="dropdown-menu">
+				  
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept.aspx">About Us</a></li>
+					   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "https://drive.google.com/file/d/1QmG1VjVYwaqV1RRRiTyRjf7zlLxfMX5H/view?usp=sharing" target="_blank">Vision and Mission</a></li>
+   					   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_aademics.aspx"> 
+           Academic Schedule </a></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="https://drive.google.com/file/d/1pyPMcubjAicAg_oa89-ap4EdwY0hZiZ4/view?usp=sharing"> 
+           POs, PSOs, COs </a></li>  		   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_faculty_details.aspx"> 
+          Faculty</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_conf_sems.aspx"> 
+         Faculty Development</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_lab_details.aspx"> 
+          Lab Details</a></li>
+           <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_research.aspx"> 
+         Research </a></li>              
+                         
+          			 
+          			  
+         <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_result.aspx"> 
+         Results  </a></li>
+         
+             <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_student_activities.aspx"> 
+         Student Activities  </a></li>
+         				
+         				
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_nt_fe_industry_interaction.aspx"> 
+        Industry Interaction  </a></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href= "https://drive.google.com/file/d/1PazPWvkvb0MsHTeZy7j079t7shJYlSO2/view?usp=sharing">POs , PSOs , COs  </a></li>
+         				 
+         			                            
+                       <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_fe_dept/sits_fe_toppers.aspx">Results</a></li> -->
+                      <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="">Conferences &amp; Seminars</a></li>   
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href="">Achievements</a></li> -->
+                   </ul>  
+             </li>  
+
+
+
+
+            <!-- <li role="presentation" class="divider"></li>
+
+             <li class="dropdown-submenu "> <a role="menuitem" tabindex="-1" href="#">Post Graduate</a>
+                  <ul class="dropdown-menu">
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_post_graduate_course/sits_nt_pg_entc/sits_nt_entc_pg_faculty_details.aspx">PG-Faculty [ M.E. EnTC ]</a></li>               
+                       <li role="presentation"><a role="menuitem" tabindex="-1" href=
+                       "/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_post_graduate_course/sits_nt_pg_mech/sits_nt_mech_pg_faculty_details.aspx"> 
+           PG-Faculty [ M.E. Mechanical ]</a></li> 
+                   </ul>  
+             </li>  -->
+
+             <li role="presentation" class="divider"></li>
+
+
+
+             
+          </ul>
+        </li>
+        <!--/drop menu-->    
+        
+        
+        
+         <!--drop menu-->             
+        <li class="dropdown"><a href="#" id="academic-Dropper" class="dropdown-toggle"  role="button" data-toggle="dropdown" >Academics <b class="caret"></b></a>
+        <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="academic-Dropper">
+            <!-- <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_instdetails.aspx">Institute Details</a></li> -->
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_intake.aspx">Intake</a></li>
+            <li role="presentation" class="divider"></li>  
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_syllabi.aspx">Syllabus</a></li>
+            <li role="presentation" class="divider"></li>   
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_library.aspx">Library</a></li>
+            <li role="presentation" class="divider"></li>                  
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_alumni.aspx">Alumni</a></li>
+            <li role="presentation" class="divider"></li> 
+          </ul>
+        </li>
+        <!--/drop menu-->    
+        
+        
+        
+        <!--drop menu-->
+         <li class="dropdown"><a href="#" id="more-Dropper" class="dropdown-toggle"  role="button" data-toggle="dropdown">More Details <b class="caret"></b></a>
+         <ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="more-Dropper">
+         <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_infrafacilities.aspx">Infrastructure</a></li>
+	<li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="https://drive.google.com/file/d/1jpOQXC5wjpi28bBS--tCkvS3_O4L1_ae/view" target="_blank">NIRF</a></li>
+	<li role="presentation" class="divider"></li>
+	<li role="presentation" class="dropdown-submenu "><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/-sits_nt_naac.aspx
+" data-original-title="" title="">NAAC</a>
+<ul class="dropdown-menu">                        			 
+  <li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/-sits_nt_naac/ssr-cycle-1.aspx" data-original-title="" title="">SSR Cycle 1</a></li>
+    <li role="presentation" class="divider"></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/-sits_nt_naac/aqar.aspx
+" data-original-title="" title="">AQAR</a></li> 
+<li role="presentation" class="divider"></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/-sits_nt_naac/iqac.aspx" data-original-title="" title="">IQAC</a></li>   		
+ </ul>
+ </li>
+ <li role="presentation" class="divider"></li>
+
+ <li role="presentation" class="dropdown-submenu "><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_activities@sits.aspx" data-original-title="" title="">Activities@SITS</a>
+<ul class="dropdown-menu">                        			 
+  <li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_activities@sits/cultural.aspx" data-original-title="" title="">Cultural</a></li>
+    <li role="presentation" class="divider"></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_activities@sits/techtonic.aspx
+" data-original-title="" title="">Techtonic</a></li> 
+<li role="presentation" class="divider"></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_activities@sits/nss.aspx" data-original-title="" title="">NSS</a></li>   		
+ </ul>
+ </li>
+            <li role="presentation" class="divider"></li>
+	 <li role="presentation"><a role="menuitem" tabindex="-1" href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_committes.aspx" target="_blank">Committes</a></li>
+	  <li role="presentation" class="divider"></li> 
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_iiicell.aspx">III Cell</a></li>
+            <li role="presentation" class="divider"></li>
+           <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sports &amp; Cultural</a></li>
+            <li role="presentation" class="divider"></li> -->
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_faq.aspx">FAQs</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Testimonials</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_studentcouncil.aspx">Student Council</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_arcell.aspx">Anti Ragging Cell</a></li>
+            <li role="presentation" class="divider"></li>
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_wrcell.aspx">Woman Redressal Cell</a></li>
+            <li role="presentation" class="divider"></li>
+             <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_schemes.aspx">National Service Scheme</a></li>
+            <li role="presentation" class="divider"></li>
+<li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_mediacoverage.aspx">Media Coverage</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_swelfare.aspx">Student Welfare</a></li>
+            <li role="presentation" class="divider"></li>
+          </ul>
+         
+         </li>
+        <!--/drop menu-->
+        
+        
+         <li><a href="http://www.sinhgad.edu/sinhgad-engineering-institutes/SEI-narhe-Campus-Facilities.html">Facilities</a></li>
+          <li><a href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_contactus.aspx">Contact</a></li>
+          
+        
+        </ul>
+                   
+                   </div>
+                   <!--/restLinks-->
+                   
+             </div>
+             
+             <!--news scroll-->
+
+<div class="row">
+<div class="span12">
+<marquee  behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="3">
+<p style="line-height:0">
+<!--<a href="/SITS/DSE-Vacancy-Display-Letter.pdf" target="_blank" style="padding-right:50px;">DSE Vacancy Display Letter</a>-->
+<!--<a href="/SITS/SITS_NIRF.pdf" target="_blank" style="padding-right:50px;">SITS-NIRF</a>-->
+<a href="https://drive.google.com/file/d/1jpOQXC5wjpi28bBS--tCkvS3_O4L1_ae/view" target="_blank" style="padding-right:50px;">SITS-NIRF</a>
+<!--<a href="/SITS/FE_Vacancy_Display_Letter.pdf" target="_blank" style="padding-right:50px;">FE Vacancy Display Letter</a>-->
+<!--<a href="/SITS/FE_Vacancy_Letter_CAP-III.pdf" target="_blank" style="padding-right:50px;">FE Vacancy Display Letter after CAP-III</a>	-->			
+<a href="https://sits_narhe.truecopy.in/verify/submitverify.tc" target="_blank" style="padding-right:50px;">Apply For Transcripts</a>
+<a href="/pdf/FE_Vacancy_Letter_CAP-III.pdf" target="_blank" style="padding-left:50px;">NAAC: Self Study Report (SSR)</a>
+
+<a href="https://www.vidyalakshmi.co.in/Students/" target="_blank" style="padding-left:50px;">Vidya Lakshmi Portal</a>
+
+<!--a href="https://sitsfist.co.in/" target="_blank" style="padding-left:50px;">SITS FIST 2020</a>-->
+
+<a href="/pdf/SITS_Self_Study_Report.pdf" target="_blank" style="padding-left:50px;">NAAC</a>
+	<!--<a href="/SITS/SITS-NIRF.pdf" target="_blank" style="padding-left:50px;">NATIONAL INSTITUTIONAL RANKING FRAMEWORK REPORT 2018-19</a>-->
+                          <!--<a href="/sinhgad_engineering_institutes/sits_narhetechnicalcampus/sits_nt_currentaffairs.aspx" target="_blank" style="padding-left:50px;"> Graduation Ceremony</a> -->
+</p>
+</marquee>
+
+</div>
+</div>
+
+<!--/news scroll-->
+
+
+
+</asp:Content>
